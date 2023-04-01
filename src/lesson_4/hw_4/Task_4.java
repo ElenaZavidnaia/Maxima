@@ -22,7 +22,7 @@ public class Task_4 {
         int i = 1;
         int j;
         while (i <= 10) {
-            j=1;
+            j = 1;
             while (j <= 10) {
                 System.out.print(i * j + " ");
                 j++;

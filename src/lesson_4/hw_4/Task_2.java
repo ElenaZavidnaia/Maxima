@@ -19,7 +19,7 @@ public class Task_2 {
          * 8888888888 **/
 
         for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < i+1; j++) {
+            for (int j = 0; j < i + 1; j++) {
                 System.out.print("8");
             }
             System.out.println();

@@ -27,6 +27,6 @@ public class Task_5 {
 
         System.out.printf("Меня зовут %s.", name);
         System.out.println();
-        System.out.printf("Я родился %d.%d.%d",d,m,y);
+        System.out.printf("Я родился %d.%d.%d", d, m, y);
     }
 }
