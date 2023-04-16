@@ -30,7 +30,7 @@ public class PhoneBook {
     public Contact searchContact(String nameOfContact) {
         Contact result = null;
         for (Contact record : contacts) {
-            if (record.getName() == nameOfContact) {
+            if (record.getName().equals(nameOfContact)) {
                 result = record;
                 break;
             }
@@ -40,7 +40,7 @@ public class PhoneBook {
 
     public void deleteContact(String nameOfContact) {
         for (int i = 0; i < contacts.length; i++) {
-            if ((contacts[i] != null) && (contacts[i].getName() == nameOfContact)) {
+            if ((contacts[i] != null) && (contacts[i].getName().equals(nameOfContact))) {
                 contacts[i] = null;
                 break;
             }
