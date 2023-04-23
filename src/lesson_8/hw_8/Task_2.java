@@ -75,7 +75,6 @@ public class Task_2 {
         } else if (number < 5.0) {
             System.out.println("false");
         }
-        ;
     }
 
     static void task_2_3() {
