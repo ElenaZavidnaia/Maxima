@@ -13,10 +13,10 @@ public class Person {
     }
 
     public void move(){
-        System.out.println(this);
+        System.out.println(toString());
     }
     public void talk(){
-        System.out.println(this);
+        System.out.println(this.toString());
     }
 
     @Override
